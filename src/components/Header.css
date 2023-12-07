@@ -1,0 +1,38 @@
+
+.headerr-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #233137;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 100%;
+    margin: 0 auto; 
+  }
+  
+  .headerr-title {
+    color: #fff;
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .headerr-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .headerr-button {
+    padding: 10px;
+    background-color: #1bac91;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .headerr-button:hover {
+    background-color: #14856b;
+  }
